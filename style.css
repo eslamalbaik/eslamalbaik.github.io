@@ -436,14 +436,17 @@ main {
   display: block;
   margin-inline-start: auto;
   border: 1px solid var(--border-dark);
-  /* Using width to prevent from jerk when text content changes */
-  width: 132px;
+  /*Usingwidthtopreventfromjerkwhentextcontentchanges*/width: 132px;
   padding-block: var(--gutter-nano);
   border-radius: var(--gutter-large);
   text-decoration: none;
-  background-color: var(--bg-color-secondary);
-  color: var(--important);
+  background-color: var(--important);
+  color:  var(--bg-color-secondary);
   cursor: pointer;
+  -webkit-border-radius: var(--gutter-large);
+  -moz-border-radius: var(--gutter-large);
+  -ms-border-radius: var(--gutter-large);
+  -o-border-radius: var(--gutter-large);
 }
 
 .menu-btn,
